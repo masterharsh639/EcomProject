@@ -1,10 +1,82 @@
-.App {
-  text-align: center;
+.nav-ul li {
+  display: inline-block;
+  padding: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-ul li a {
+  text-decoration: none;
+  color: #00FFFF;
+  font-weight: 700;
+}
+
+.nav-ul {
+  background-color: crimson;
+  margin: 0px;
+  text-align: center;
+  top: 0;
+  position: relative;
+}
+
+.nav-right {
+  text-align: right;
+}
+
+.inputBox {
+  width: 300px;
+  margin: 25px;
+  display: block;
+  padding: 7px;
+  border-radius: 7px;
+  border-color: crimson;
+}
+
+.error-field {
+  display: block;
+  color: red;
+  margin-left: 30px;
+  margin-top: -20px;
+}
+
+.product-list ul li {
+  display: inline-block;
+  border: 2px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+
+.product-list {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.register-form,
+.login-form,
+.addProductForm {
+  margin-left: 35%;
+}
+
+.searchBox {
+  margin-left: 4em;
+  padding: 10px;
+  width: 24%;
+}
+
+.submit-button,
+.addButton {
+  margin-left: 8em;
+  width: 120px;
+  border-color: crimson;
+  padding: 6px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.footer-style {
+  background-color: crimson;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,6 +104,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
